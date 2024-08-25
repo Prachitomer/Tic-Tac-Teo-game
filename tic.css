@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    background-color: #eed3d3;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav{
+    height:115px ;
+    background-color:black;
+    color: white;
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gmcontainer{
+      background-color:rgb(158, 228, 17);
+      justify-content: center;
+      display: flex;
+      margin-top: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(158, 228, 17);
+}
+.box:hover{
+    background-color: lightblue;
+}
+.info{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gminfo{
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.imgbox img{
+    /* display: none; */
+    width: 0;
+    transition: width is ease-in-out;
+    margin-top: 20px;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left:0 ;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(151, 151, 242);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+#reset:hover{
+    background-color: rgb(241, 183, 35)
+}
